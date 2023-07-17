@@ -1,0 +1,103 @@
+.header{
+    background-color: rgb(11, 11, 56);
+    margin-top: 2%;
+    text-align: left;
+    padding: 2%;
+    font-size: 2rem;
+    color: aqua;
+    
+    
+}
+img.dtc{
+   float: left;
+   margin-right: 2%;
+   
+}
+
+.header2{
+    text-align: center;
+    font-size: 2rem;
+    background-color:whitesmoke;
+    color: rgb(26, 175, 177);
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+
+.body{
+    text-align: center;
+    padding-bottom:25% ;
+    margin: 2% auto;
+    background-image:url("dtc theme1.png") ;
+    opacity: 0.9;
+}
+
+.line1{
+    
+    font-size: 2rem;
+    color:rgb(26, 175, 177); 
+    font-weight: 700;
+    
+
+}
+
+.profile{
+   
+   
+    opacity: 0.8;
+    
+}
+.blink{
+		width:200px;
+		height: 50px;
+	   
+		padding: 15px;	
+		text-align: center;
+		line-height: 50px;
+	}
+	span{
+		font-size: 25px;
+		
+		color:green;
+		animation: blink 1.2s linear infinite;
+	}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+
+   
+}
+p{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.date{
+    color: rgb(197, 44, 44);
+}
+.s{
+position: absolute;
+
+left: 0px;
+
+    
+}
+.qr{
+    position: absolute;
+    right: 10%;
+    
+}
+.k1{ 
+  text-align:start;
+  position: relative;
+  left: 30px;
+  top: 110%;
+    
+    font-size: 0.6rem;
+}
+
+.footer{
+    background-color:rgb(26, 175, 177) ; text-align: center;
+    padding: 5%;
+   font-weight: lighter;
+   font-size: x-small;
+}
